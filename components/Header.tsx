@@ -31,7 +31,7 @@ function Header() {
             </div>
           </div>
         </div>
-        {/* Image Section */}
+        {/* Image  */}
         <div className="h-[390px] w-[428px] relative">
           <Image
             src="/place.jfif"
