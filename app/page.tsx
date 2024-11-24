@@ -1,8 +1,13 @@
-import Header from "@/components/Navbar";
+import Navbar from "@/components/Navbar";
+import Header from "@/components/Header";
+import Logo from "@/components/Logo";
 export default function Home() {
   return (
     <div className="">
-       <Header></Header>
+       <Navbar/>
+       <Header/>
+       <Logo/>
+
     </div>
   );
 }

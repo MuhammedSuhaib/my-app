@@ -3,7 +3,7 @@ function Navbar() {
   return (
     /*Navbar/4/ */ <nav className="w-[428px] h-[72px]">
       {/* Container*/}
-      <div className="bg-[#FFFFFF] w-[428px] h-[72px] p-[24px] border-b-[1px]">
+      <div className="bg-[#FFFFFF] w-[428px] h-[72px] p-[24px] border-b-[1px] border-black">
         {/* Container*/}
         <div className="w-[380px] h-[48px] flex ml-[32px]">
           {/* Column left*/}
@@ -31,7 +31,7 @@ function Navbar() {
                     />
                   </svg>
                 </div>
-                <div className="text-[#000000;] font-bold w-[90px] h-[30px] ">
+                <div className="text-[#000000;] font-bold w-[90px] h-[30px] text-[25.07px]">
                   Ddsgnr
                 </div>
               </div>
