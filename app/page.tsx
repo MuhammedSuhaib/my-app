@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Logo from "@/components/Logo";
 import Team from "@/components/Team";
 import Layout from "@/components/Layout";
+import Blog from   "@/components/Blog";
 export default function Home() {
   return (
     <div className="">
@@ -11,6 +12,7 @@ export default function Home() {
       <Logo />
       <Team />
       <Layout />
+      <Blog />
     </div>
   );
 }
